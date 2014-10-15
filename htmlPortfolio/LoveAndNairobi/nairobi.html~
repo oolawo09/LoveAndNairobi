@@ -1,0 +1,15 @@
+<html>
+
+<head>
+	<title>my page is the kewlest</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+	<p>This is my second page. It has the same stylesheet as the first (see the link tag in the head?). You can get back to my first page by clicking <a href="index.html">here</a>.</p>
+
+	<p>You could also, though, go to <a href="link2.html">another page</a>.</p>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  </head>
+
+  <body>
+
+    <ul id="nav">
+      <li id="nav-text">Text</li> 
+      <li id="nav-print">Print</li>
+      <li id="nav-hypertext">Hypertext</li>
+      <li id="nav-unfoldingInTime">Unfolding in Time</li>
+      <li id="nav-audio">Audio</li>
+      <li id="nav-visual">Visual</li>
+      <li id="nav-game">Game</li>
+      <li id="nav-ar">Augmented Reality</li>
+    </ul>
+
+  </body>
+
+</html>

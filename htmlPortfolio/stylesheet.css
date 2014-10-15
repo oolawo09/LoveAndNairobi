@@ -1,0 +1,45 @@
+body{
+    background-color:;
+    backgroud-image:url("");
+    //Image taken from 
+}
+
+#nav{
+    margin:0; 
+    padding:0;
+    font-family:Arial,sanserif;   
+}
+
+#nav li{
+    margin:0; 
+    padding:0;
+    display:inline;  
+    border: 2px solid black;
+}
+
+#nav a{
+    font-size:1.5em;
+    text-decoration:none;
+    background-color:black;
+    color: white; 
+}
+
+#nav a:hover{
+    background-color:gray;
+    color:gray; 
+}
+
+#nav a:visited{
+    
+}
+
+#container {
+    border: 2px solid back; 
+    background-color: gray;
+    position: absolute; 
+    width: 
+    top: 
+    left: 
+    pading: 
+    margin:
+}

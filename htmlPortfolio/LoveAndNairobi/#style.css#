@@ -1,0 +1,53 @@
+
+#boom{
+    background-color:black;
+}
+h1{
+    color: gray;
+    margin:50px 100px 50px 300px; 
+}
+h2{
+    color: white;
+    margin:300px 300px 300px 300px; 
+}
+p.center{
+    color: gray;
+    margin:0px 100px 10px 300px;
+    align: center; 
+}
+p.right{
+    color: blue;
+    margin:25px 0px 0px 100px;
+    width:250px;
+}
+p.center_1{
+    color: red;
+    margin:25px 0px 0px 100px;
+    width:250px;
+}
+p.left{
+    color: red;
+    margin:25px 0px 0px 100px;
+    width:250px;
+}
+p.aftermath{
+    color: ;
+    margin:0px 100px 10px 300px;
+}
+p.lyrics{
+    color: black; 
+    text-align: center; 
+    margin:0px 0px 0px 100px;
+}
+iframe{
+    margin:100px 100px 0px 200px;
+}
+hr{
+    width:600px; 
+    margin:0px 100px 10px 300px;
+}
+a{
+    text-decoration:none;
+    color:484848;
+    border-bottom:2px dotted black;
+}

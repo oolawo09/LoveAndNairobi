@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
+	<title>Love and Nairobi</title>
+	<meta name="keywords"  content="terror,terrorism,love,Nairobi,anthony" />
+	<meta name="Resource-type" content="Document" />
+
+	
+	<link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="index.css" />
+
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+		
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>	
+	
+	<script type="text/javascript" src="jquery.fullPage.js"></script>
+	<script type="text/javascript" src="examples.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			var pepe = $.fn.fullpage({
+				slidesColor: ['black', 'black', 'white', 'white', 'white'],
+				anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+				menu: '#menu'
+			});
+			
+		});
+	</script>
+
+</head>
+<body>
+
+
+
+<div class="section" id="section0">
+	<audio controls autoplay="autoplay" loop>
+	  <source src="Nairobi.ogg" type="audio/ogg">
+	    <source src="Nairobi.mp3" type="audio/mpeg">
+	      Your browser does not support the audio element.
+	</audio>
+	<img src="imgs/cover.jpg" alt="fullPage" />
+</div>
+<div class="section" id="section1">
+    <div class="slide">
+		<div class="intro">
+			<p>Nairobi has always been a hub of pithy chaos, and it still is.  The chaos traffics in and out of the city center via Uhuru highway, Ngong road etc. It often feels like an angry fix: a tight knot of human activity twisted about itself like electric copper wiring.</p>
+		</div>
+		
+	</div>
+    <div class="slide">
+		<div class="intro">
+			<img src="imgs/1.png" alt="kenyatta" />
+			<img src="imgs/kenyatta.jpeg">
+			<p></p>
+		</div>
+	</div>
+    <div class="slide">
+		<div class="intro">
+			<p>Within Nairobi, Kenyatta international conference center is arguably the most significant landmark. It stands erect, off of the catholic, largely concrete base that paves most of this metropolitan city, Kenya’s capital city. It isn’t smack in the middle of the city or even the country but was slapped close enough to it by the very incestuous father of the nation -Jommo Kenyatta. Incestuous because Jommo, the father of this nation by virtue of being its first prime minister and president, egotistically stroked this building to erection: a mass of concrete pulsating with the heat and fervor of premature independence, he stroked it to completion in four years before proceeding to use the building to fuck the entire country senseless, to a climax that clouded the not so virgin Nairobi sky. </p>
+		</div>
+	</div>
+    <div class="slide">
+		<div class="intro">
+			<img src="imgs/3.png" alt="Compatible" />
+			<p> The building housed, and continues to shelter the tattered remains of, KANU-the Kenya African National Union.</p>
+		</div>
+	</div>
+</div>
+<div class="section" id="section2">
+	<div class="intro">
+		<h1>Welcome to Nairobi</h1>
+		<a href="">Koko</a> <a href="">Ciru</a>
+	</div>
+</div>
+
+</body>
+</html>

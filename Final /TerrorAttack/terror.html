@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <title>skrollr - parallax scrolling for the masses</title>
+
+    <link href="examples/fixed-positioning.css" rel="stylesheet" type="text/css" />
+    <link href="examples/main.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+
+    <div id="properties" data-0="opacity:1;top:3%;transform:rotate(0deg);transform-origin:0 0;" data-1500="opacity:0;top:-10%;transform:rotate(-90deg);">
+      <p>I can feel the strict matatu frame ricket around me. The speakers flush out P-UNIT, dusty and loud. They belt out,<br>
+	&#8221 you guy,<br> that denda,<br> she can give you a good one...&#8221<br>
+      </p>
+    </div>
+
+    <div id="properties" data-1700="top:100%;" data-2200="top:0%;" data-3000="display:block;" data-3700="top:-100%;display:none;">
+      <p>
+	I feel the matatu swerve to a stop. The conductor pulls at the minivan door and it lunges open. It wheezes past my shoulder to unveil a handful of yet more Nairobians at the Chiromo Campus stage. I consciously juggle my left then right foot onto the tarmac before straightening out my shirt and steadying myself.
+      </p>
+      <p>As I head up Chiromo road into Chiromo campus...</p>
+    </div>
+
+    <div id="easing_wrapper" data-0="display:none;" data-3900="display:block;" data-4900="background:rgba(0, 0, 0, 0);color[swing]:rgb(0,0,0);" data-5900="background:rgba(0,0,0,1);color:rgb(255,255,255);" data-10000="top:0%;" data-12000="top:-100%;">
+      <div id="easing" data-3900="left:100%" data-4600="left:25%;">
+	<h2> boom!</h2>
+	<p data-5900="opacity:0;font-size:100%;" data-6500="opacity:1;font-size:150%;">The<span data-3900="" data-4900="color[swing]:rgb(0,0,0);" data-5900="color:rgb(255,255,0);"><a href="sun.html" style="color:yellow"> sun</a></span> goes out</p>
+      </div>
+
+      <div class="drop" data-6500="left:15%;bottom:100%;" data-9500="bottom:0%;">metal</div>
+      <div class="drop" data-6500="left:25%;bottom[quadratic]:100%;" data-9500="bottom:0%;">glass</div>
+      <div class="drop" data-6500="left:35%;bottom[cubic]:100%;" data-9500="bottom:0%;">sky</div>
+      <div class="drop" data-6500="left:45%;bottom[swing]:100%;" data-9500="bottom:0%;">oil</div>
+      <div class="drop" data-6500="left:55%;bottom[WTF]:100%;" data-9500="bottom:0%;">flame</div>
+      <div class="drop" data-6500="left:65%;bottom[inverted]:100%;" data-9500="bottom:0%;">thick black flesh</div>
+      <div class="drop" data-6500="left:75%;bottom[bounce]:100%;" data-9500="bottom:0%;">smoke</div>
+    </div>
+
+    <div data-12300="top:-100%;">
+      <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/123261734&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe>
+    </div>
+
+
+    <script type="text/javascript" src="dist/skrollr.min.js"></script>
+
+    <!--[if lt IE 9]>
+	<script type="text/javascript" src="dist/skrollr.ie.min.js"></script>
+	<![endif]-->
+
+    <script type="text/javascript">
+      var s = skrollr.init({
+      edgeStrategy: 'set',
+      easing: {
+      WTF: Math.random,
+      inverted: function(p) {
+      return 1-p;
+      }
+      }
+      });
+    </script>
+  </body>
+
+</html>
